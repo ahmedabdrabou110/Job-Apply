@@ -1,0 +1,14 @@
+= what the `prevent default` of event and when should we use ?
+
+`preventDefault` is a method that stops the default behavior of an event from happening .  
+
+we should use this method in :- 
+    - Preventing a link from navigating to a new page
+    - Preventing a form from submitting before validating
+
+= what the  stop propagation of event and when should we use ?
+
+`stop propagation` is a method that prevents an event from bubbling up to its parent elements. When an event is triggered on a child element, it typically propagates up the DOM tree to its parent elements, allowing any event listeners on those elements to also handle the event.
+
+we should use this method in :-
+    - stopPropagation() whenever you want to prevent an event from propagating further up the DOM tree
