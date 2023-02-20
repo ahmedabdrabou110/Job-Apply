@@ -1,0 +1,10 @@
+what is the difference between querySelector and closest?
+
+Both querySelector and closest are methods in JavaScript that allow you to select elements from the DOM
+
+`querySelector` is a method that returns the first element that matches a  CSS selector. so, if you want to select the first element with the class "id", you can use document.querySelector('.id')
+
+closest is a method that returns the closest ancestor element that matches a  CSS selector. This method starts at the current element and looks up the DOM tree, returning the first element that matches the selector
+
+so, if you want to select the first element with the class "id", you can use element.closest('.id')
+
